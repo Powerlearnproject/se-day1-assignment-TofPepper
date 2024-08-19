@@ -5,33 +5,65 @@ Software Engineering Day1 Assignment
 #Part 1: Introduction to Software Engineering
 
 Explain what software engineering is and discuss its importance in the technology industry.
+Software engineering is a structured process that applies engineering principles, tools and methods to the design, development, testing, deployment and maintenance of software systems that is reliable, efficient, maintainable and scalable. It is the process of following a systematic process to create a software that is secure, functional and meets the needs of the end user or solves real-world problems advantageously. Software Engineers maintain the technology ecosystem. They contribute by designing and developing web applications, mobile games, etc thereby driving innovations. They adapt existing systems and create new ones to meet changing needs. Software Engineers are at the bosom of technological advancement.
 
 
 Identify and describe at least three key milestones in the evolution of software engineering.
+1. The Birth in 1968(The term "software engineering" was coined at the NATO Software Engineering Conference held in Garmisch, Germany. This conference highlighted the need for a systematic approach to software development, addressing issues such as software reliability, maintainability, and complexity. It marked the beginning of the software engineering discipline as a distinct field with its own methodologies and practices).
+2. Development of Structured Programming 1970s(The publication of "Structured Programming" by Edsger W. Dijkstra and other influential papers by Donald D. Knuth and C.A.R. Hoare. Structured programming introduced principles such as control structures and modular design, which aimed to improve the clarity and efficiency of software code. These principles helped address the problems of "spaghetti code" and made software more maintainable and easier to understand).
+3. Emergence of Agile Methodologies(The publication of the Agile Manifesto in 2001 and the rise of Agile methodologies such as Scrum, Extreme Programming (XP), and Kanban. Agile methodologies introduced iterative and incremental approaches to software development, focusing on flexibility, collaboration, and customer feedback. This shift from traditional, rigid development models (like Waterfall) to Agile practices significantly improved the adaptability and responsiveness of software projects).
+
 
 
 List and briefly explain the phases of the Software Development Life Cycle.
+Planning
+Requirement Analysis
+Design
+Implementation
+Testing
+Deployment
+Maintenance
+
+Planning is a fundamental phase of understanding WHY a software should be built and HOW the project team will go about building it. The deliverables of the phase include project charter, requirements document, feasibility study and project plan. It is also in two stages; project initiation, and when it gets approved, it leads to project management. 
+Requirement Analysis answers the question of WHO will use the software, WHERE will the software be used, WHAT the software will do and WHEN it will be used. It has two steps; analysis strategy and requirements gathering. The deliverable of this phase is System Proposal which is a document of the combination of analyses, software concept and models.
+Design answers the question HOW will the software operate. The objective of this phase is to create a blueprint for the software based on requirements. Its deliverables include ystem Architecture Diagram, detailed Design Document and prototypes. In this phase, the design strategy must be determined, which leads to the architecture design for the software. Database and file specifications are also developed which then leads to the development of program design.
+Implentation is the phase where the software is actually built. It involves writing and integrating code to build the software. Its deliverables are source code, unit test reports and integrated software modules.
+Testing ensures that the software meets the specified requirements and is free of defects. It involves test planning, testing execution and bug reporting. Its deliverables are test plans, test cases, bug reports and test summary reports.
+Deployment is the process of releasing the built software to its users and put it in a production environment. It involves deployment planning, deployment execution , training and support. The deliverables for this phase include deployment plan, installed software, user documentation and training materials.  
+Maintenance ensure the software continues to function correctly and remains up-to-date. It involves issue resolution, updates and enhancements, performance monitoring. Its deliverables are maintenance reports, updated software versions and user support documentation.
 
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
-
+In Waterfall methodologies, analysts and users proceed sequentially from one phase to the next. The key deliverables for each phase are typically voluminous (often, hundreds of pages) and are presented to the approval committee and project sponsor for approval as the project moves from phase to phase. ). Waterfall development methodologies have the advantages of identifying requirements long before programming begins and limiting changes to the requirements as the project proceeds. The key disadvantages are that the design must be completely specified before programming begins. Also, a long time elapses between the completion of the system proposal in the analysis phase and the delivery of system, and testing is treated almost as an afterthought in the implementation phase. In addition, the deliverables are often a poor communication mechanism, so important requirements may be overlooked in the volumes of documentation. Whereas, in Agile Methodologies, it believes that every project needs to be handled differently and the existing methods need to be tailored to best suit the project requirements. In Agile, the tasks are divided to time boxes (small time frames) to deliver specific features for a release. Iterative approach is taken and working software build is delivered after each iteration. Each build is incremental in terms of features; the final build holds all the features required by the customer.
+An appropriate scenario for Waterfall Methodologies is well-defined requirements. projects where requirements are clear, stable, and unlikely to change, such as internal tools or maintenance of existing systems. For example, developing a new government compliance application where all the requirements are well-documented and unlikely to change. While for Agile, projects requiring frequent feedback from end-users to refine and improve the product incrementally. For example, developing a new social media platform where user needs and market trends are continually evolving. 
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-
+Software Developers are responsible for designing, coding, and implementing software applications. They translate requirements into functional code and ensure the software meets the desired specifications and quality standards. Their responsibilities are requirements analysis, design and architecture, coding, testing, debugging, documentation and collaboration. 
+Quality Assurance Engineer focus on ensuring that the software meets quality standards and functions correctly. They are responsible for testing the software to identify defects and ensure it meets the specified requirements before release. Their responsibilities include test planning, test execution, bug identification, automation, collaboration, User Acceptance Testing and quality metrics.
+Project Managers oversee the planning, execution, and delivery of software projects. They ensure that projects are completed on time, within budget, and to the required quality standards. Their responsibilities are project planning, resource management, risk management, stakeholder communication, team coordination, change management and quality assurance. 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-
+ Integrated Development Environments (IDEs) offer advanced code editing features, including intelligent code suggestions, error detection, and code navigation. IDEs provide a comprehensive suite of tools and features that streamline the development process, helping developers write, test, and debug code more efficiently. IDEs come with built-in debugging tools that allow developers to set breakpoints, inspect variables, and step through code line by line.  Many IDEs integrate seamlessly with other development tools, such as build systems, testing frameworks, and VCS. Examples are Visual Studio, IntelliJ IDEA and Eclipse.
+ Version Control Systems  tracks changes to the codebase over time, allowing developers to manage different versions of code, roll back to previous states, and maintain a history of changes.  VCS maintains a complete history of all changes made to the codebase, providing insight into who made specific changes and why. VCS facilitates collaboration among multiple developers by allowing them to work on different branches, merge changes, and resolve conflicts. By storing code in a repository, VCS provides a backup mechanism that protects against data loss.  VCS allows for branching and merging, which enables developers to work on new features or bug fixes in isolation before integrating them into the main codebase. Examples include Git, Subversion and Mercurial.
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
-
+Requirement Changes challenge. Strategies include adopt agile methodologies, implement change control processes and maintain clear communication with stakeholders.
+Technical Debt. Strategies are regular refactoring, code reviews and automated testing.
+Debugging and Troubleshooting. Strategies are use debugging tools, develop unit tests and adopt best coding practices.
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+Unit testing focuses on individual components or modules of the software. It validates that each unit of the software performs as expected. Unit tests are typically automated and are written by developers as they develop the code. Importance include early defect detection, facilitates code refactoring, improves code quality, etc. 
+Integration testing examines the interactions between different modules or units of the software. This type of testing ensures that combined units work together as expected. It detects issues that may arise when individual units are combined, such as interface mismatches, data format problems, or incorrect interactions between modules. Its importance; identifies interaction defects, ensures proper data flow reduces integration risk. 
+System Testing evaluates the complete and integrated software system to verify that it meets the specified requirements. This testing is done on the entire application in an environment that closely resembles production. It validates the end-to-end functionality of the system, including how it interacts with other systems and its compliance with technical, functional, and business requirements. Its importance; comprehensive validation, catches defects missed in earlier tests, validates non-functional requirements. 
+Acceptance testing is the final level of testing performed to determine whether the software is ready for release. It is typically conducted by the end users or stakeholders. To validate that the software meets the business needs and requirements as specified by the users or clients. This testing is often referred to as User Acceptance Testing (UAT). Importance; it ensures software meets business requirements, reduces the risk of product rejection and final validation before release. 
 
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
-
+Prompt engineering is the practice of designing and refining prompts to interact effectively with AI models, particularly large language models (LLMs) like GPT. It involves crafting specific and clear instructions that guide the AI to generate the desired output. Defining constraints or limits within the prompt to prevent the AI from straying off-topic or generating inappropriate content. 
+Importance; Well-crafted prompts can significantly enhance the performance of AI models, leading to more accurate and relevant outputs. This is crucial for applications where precision and reliability are essential. It improves efficiency, enhances user experience and most especially, moderating bias and errors. 
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+A vague prompt can be "Job opportunities in Computer Science". Improving it and making it clear and concise "Job opportunities in Computer Science that majorly involves coding". The improved prompt is more likely to generate a useful, accurate, and relevant response because it reduces ambiguity, provides clear direction, and specifies the type of information desired. This leads to better alignment between the user’s intent and the AI’s output, enhancing the overall interaction quality.
