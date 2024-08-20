@@ -14,7 +14,6 @@ Identify and describe at least three key milestones in the evolution of software
 3. Emergence of Agile Methodologies(The publication of the Agile Manifesto in 2001 and the rise of Agile methodologies such as Scrum, Extreme Programming (XP), and Kanban. Agile methodologies introduced iterative and incremental approaches to software development, focusing on flexibility, collaboration, and customer feedback. This shift from traditional, rigid development models (like Waterfall) to Agile practices significantly improved the adaptability and responsiveness of software projects).
 
 
-
 List and briefly explain the phases of the Software Development Life Cycle.
 Planning
 Requirement Analysis
